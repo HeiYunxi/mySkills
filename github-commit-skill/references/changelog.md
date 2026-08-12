@@ -23,15 +23,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- :sparkles: add JWT-based user authentication
+- Add JWT-based user authentication
 
 ### Fixed
-- :bug: resolve race condition in request handler
+- Resolve race condition in request handler
 
 ## [1.0.0] - 2024-01-15
 
 ### Added
-- :sparkles: initial release
+- Initial release
 ```
 
 ### 区段说明
@@ -68,9 +68,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 3. **找到对应 type 的 `### Xxx` 子区段**（如 `### Added`）
    - 若不存在则新建（顺序：Added → Changed → Deprecated → Removed → Fixed → Security）
 4. **在区段顶部添加条目**（新条目在上，时间倒序）
-5. **条目格式**：`- :emoji_shortcode: <description>`
-   - emoji shortcode 与提交信息一致
-   - description 与提交信息的 description 一致（不含 type/scope 前缀）
+5. **条目格式**：`- <Description>`
+   - CHANGELOG 不写 emoji shortcode，保持纯文本
+   - description 内容与提交信息的 description 一致（不含 type/scope/emoji 前缀），但首字母大写
 6. **用 Edit 工具写入**
 
 ### 条目格式示例
@@ -83,7 +83,7 @@ feat(auth): :sparkles: add JWT-based user authentication
 CHANGELOG 条目：
 ```markdown
 ### Added
-- :sparkles: add JWT-based user authentication
+- Add JWT-based user authentication
 ```
 
 ### 带破坏性变更的条目
@@ -98,7 +98,7 @@ BREAKING CHANGE: response format changed from v1 to v2
 CHANGELOG 条目（写入 `### Removed` 或 `### Changed`，视变更性质）：
 ```markdown
 ### Changed
-- :boom: change response format to v2 (BREAKING)
+- Change response format to v2 (BREAKING)
 ```
 
 ## 首次创建
@@ -116,7 +116,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- :sparkles: add JWT-based user authentication
+- Add JWT-based user authentication
 ```
 
 创建步骤：
@@ -166,21 +166,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ## [Unreleased]
 
 ### Added
-- :sparkles: add user profile settings page
-- :sparkles: add JWT-based user authentication
+- Add user profile settings page
+- Add JWT-based user authentication
 
 ### Changed
-- :recycle: extract token validation into separate module
-- :zap: add index to user email column
+- Extract token validation into separate module
+- Add index to user email column
 
 ### Fixed
-- :bug: resolve race condition in request handler
+- Resolve race condition in request handler
 
 ### Removed
-- :boom: drop support for Node 6 (BREAKING)
+- Drop support for Node 6 (BREAKING)
 
 ## [1.0.0] - 2024-01-15
 
 ### Added
-- :sparkles: initial release
+- Initial release
 ```

@@ -9,4 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 
-- :sparkles: add github-commit-skill for conventional Git commit message generation and commit workflow
+- Add github-commit-skill for conventional Git commit message generation and commit workflow

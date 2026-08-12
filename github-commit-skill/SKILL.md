@@ -188,7 +188,7 @@ COMMIT_EOF
 **更新方式**：
 1. 读取现有 CHANGELOG.md
 2. 在 `## [Unreleased]` 下的对应区段添加条目
-3. 条目格式：`- :emoji_shortcode: <description>`（与提交信息一致，保持视觉统一）
+3. 条目格式：`- <Description>`（CHANGELOG 不写 emoji shortcode，保持纯文本；description 内容与提交信息一致，但首字母大写）
 4. 若区段不存在则新建（`### Added` / `### Fixed` 等）
 5. 多条目按时间倒序（新条目在上）
 
@@ -197,11 +197,11 @@ COMMIT_EOF
 ## [Unreleased]
 
 ### Added
-- :sparkles: add JWT-based user authentication
-- :sparkles: add user profile settings page
+- Add JWT-based user authentication
+- Add user profile settings page
 
 ### Fixed
-- :bug: resolve race condition in request handler
+- Resolve race condition in request handler
 ```
 
 ### 8. 验证
