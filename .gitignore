@@ -1,0 +1,31 @@
+# .gitignore for mySkills
+# 仓库级忽略规则 / Repository-wide ignore rules
+
+# 操作系统生成文件 / OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE 配置 / Editor / IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 语言运行时产物 / Language runtime artifacts
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+dist/
+build/
+*.log
+
+# Claude 配置
+.claude
