@@ -1,6 +1,6 @@
 ---
-name: 前期调研与设计说明：github-commit-skill
-description: 本文档是「GitHub 提交 Skill」的前期调研与设计说明，供用户阅读。Agent在任何情况下，不参考、不触发。
+name: github-commit-skill-design-notes
+description: "Design notes and research for the github-commit-skill. Read this to understand the skill's background, the surveyed AI-commit tools (aicommits, opencommit, commitizen), the Conventional Commits spec, the Claude Code skill format, and the resulting capability targets. This is a human-readable design document, not a runtime skill."
 ---
 # 前期调研与设计说明：github-commit-skill
 
@@ -259,7 +259,7 @@ skill-name/
 ```yaml
 ---
 name: skill-identifier
-description: 触发时机 + 能力描述。这是主要的触发机制——同时包含「做什么」和「何时使用」。所有「何时使用」信息放在这里，不放正文。
+description: "Trigger conditions + capability description. This is the main trigger mechanism — combine 'what it does' and 'when to use'. All 'when to use' info goes here, not in the body."
 ---
 ```
 

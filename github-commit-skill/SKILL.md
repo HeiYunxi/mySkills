@@ -1,6 +1,6 @@
 ---
 name: github-commit-skill
-description: 按规范生成 Git 提交信息并完成提交工作流。当用户想要提交代码、写 commit message、git commit、保存改动到版本库、生成提交信息、更新 CHANGELOG 时使用此 skill。即使用户只说"提交一下""commit 一下""帮我 commit""保存改动"也应触发。
+description: "Use this skill whenever the user wants to commit code, write a commit message, or save changes to the repository. Triggers include: any mention of 'commit', 'git commit', 'push', 'submit code', 'save changes', 'write commit message', or 'update CHANGELOG'. Also use when the user says things like 'commit 一下', '提交一下', '帮我 commit', or '保存改动'. Generates Conventional Commits messages with emoji shortcodes, executes the commit workflow, and syncs user-visible changes to CHANGELOG.md. Do NOT use for plain git operations like pull/fetch/merge without an explicit commit intent."
 ---
 
 # GitHub 提交 Skill
