@@ -97,14 +97,6 @@ Skills in this repo are written with generic actions (run command / read file / 
 
 ---
 
-## 贡献 / Contributing
-
-欢迎通过 issue 和 PR 贡献新的 skill 或改进现有 skill。新增 skill 请遵循「一个 skill 一个文件夹」的结构,文件夹内必须有 `SKILL.md`(含 YAML frontmatter),相关调研与设计说明放至 `docs/<skill-name>.md`。
-
-Contributions via issues and PRs are welcome. When adding a new skill, follow the "one folder per skill" structure: the folder must contain a `SKILL.md` (with YAML frontmatter), and place the related design notes in `docs/<skill-name>.md`.
-
----
-
 ## License
 
 [MIT](LICENSE)
